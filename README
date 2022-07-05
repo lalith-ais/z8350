@@ -1,0 +1,15 @@
+disk layout
+
+number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048         1050623   512.0 MiB   EF00  EFI system partition
+   2         1050624         5244927   2.0 GiB     8300  Linux filesystem
+   3         5244928       250069616   116.7 GiB   8300  Linux filesystem
+
+SYSTEM:
+-r--r--r-- 1 root root 98476032 Jul  5 10:15 debian.squash
+-r--r--r-- 1 1000 1000 16310272 Jul  5 05:27 kmod.squash
+
+DATA:
+.system/sys.squash
+
+
