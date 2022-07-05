@@ -13,3 +13,9 @@ DATA:
 .system/sys.squash
 
 
+note: 
+RockpiX + usb3 stata = 74Mbytes/s webdav write speed 
+UP +USB3 stat = 49Mbytes/s 
+
+RockPi4 + nvme SSD 100Mbytes/s (saturates 1Gbits/s network)
+
